@@ -1,9 +1,9 @@
-💻 Wi-Fi Based Automated Attendance System
+# 💻 Wi-Fi Based Automated Attendance System
 
 
 A smart, fully-automated attendance system built using Python, Streamlit, and MySQL that detects students' presence through their Wi-Fi MAC addresses and marks attendance automatically — eliminating manual roll calls, reducing errors, and improving efficiency.
 
-🚀 Features
+## 🚀 Features
 
 
 🔍 Automatic Wi-Fi Network Scan
@@ -28,7 +28,7 @@ A smart, fully-automated attendance system built using Python, Streamlit, and My
 
 🗄 MySQL Database Integration
 
-🧠 How It Works
+## 🧠 How It Works
 
 
 Students connect their devices to the classroom Wi-Fi / Hotspot.
@@ -45,7 +45,7 @@ A clean Streamlit UI displays real-time attendance status.
 
 Teachers can export Excel sheets for any month & subject.
 
-🏗 Project Architecture
+## 🏗 Project Architecture
 
 
 📡 Wi-Fi Hotspot / Router → Detects connected devices
@@ -58,9 +58,9 @@ Teachers can export Excel sheets for any month & subject.
 
 📁 Excel Reports → Generated using Pandas + Openpyxl
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-Backend
+### Backend
 
 Python 3.x
 
@@ -74,7 +74,7 @@ openpyxl
 
 datetime, regex, subprocess, os
 
-Frontend
+### Frontend
 
 Streamlit (Interactive Web UI)
 
@@ -82,7 +82,7 @@ System Commands
 
 arp -a to detect Wi-Fi connected devices
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 
 
 📱 Mobile App + GPS Verification
